@@ -1,0 +1,59 @@
+2.4转化
+1.数值和字符串转化
+  public static void main(String[] args) {
+
+   //数字转字符串
+String s1 = String.valueOf(1234);
+String s2 = String.valueOf(12.34);
+String s3 = String.valueOf(true);
+String s4 - String.valueOf(new Student("Hanmeimei",a8));
+System.out.println(s1);
+System.out.println(s20;
+
+System.out.println(s3);
+System.out.println(s4);
+System.out.println("-----------------");
+//字符串转数字
+//注意:lnteger,Double等是java中的包装类型,这个后面会讲到
+int data1 = integer.parseint("1234");
+double data2 = Double.parseDouble("12.34");
+System.out.println(data1);
+System.out.println(data2);
+}
+
+2.大小写转换
+public static void main(String[] args) {
+  String s1 = "hello";
+String s2 = "HELLO";
+//小写转大写
+System.out.println(s1.toUpperCase());
+//大写转小写
+ System.out.println(s2.toLowerCase());
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
